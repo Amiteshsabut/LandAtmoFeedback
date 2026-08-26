@@ -32,7 +32,7 @@
 
 The GitHub project is named **LandAtmoFeedback**; the installable Python distribution and import package are named **`landfeedback`**.
 
-The toolkit is designed for transparent, reproducible research rather than for one fixed model. Users supply their own state variables, parameters, governing tendency function, and—when needed—process-level tendencies.
+The toolkit is designed for transparent, reproducible research rather than for one fixed model. Users supply their own state variables, parameters, governing tendency function, and when needed process-level tendencies.
 
 ## Key Capabilities
 
