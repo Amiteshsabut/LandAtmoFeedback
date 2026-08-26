@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the Brubaker-Entekhabi method."
+title: "landfeedback: Coupled land-atmosphere feedback diagnostics in Python"
+type: software
+authors:
+  - family-names: Sabut
+    given-names: Amitesh
+version: 0.1.0
+date-released: 2026-08-26
+license: MIT
+keywords:
+  - land-atmosphere interaction
+  - hydrology
+  - soil moisture
+  - feedback analysis
+  - climate dynamics
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Brubaker
+      given-names: Kaye L.
+    - family-names: Entekhabi
+      given-names: Dara
+  title: "Analysis of feedback mechanisms in land-atmosphere interaction"
+  journal: Water Resources Research
+  volume: 32
+  issue: 5
+  start: 1343
+  end: 1357
+  year: 1996
+  doi: 10.1029/96WR00005
+

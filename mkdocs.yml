@@ -1,0 +1,25 @@
+site_name: landfeedback
+site_description: Coupled land-atmosphere feedback diagnostics in Python
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Quick start: quickstart.md
+  - Theory: theory.md
+  - Brubaker 1996 benchmark: benchmark.md
+  - API: api.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
+            docstring_style: numpy
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
