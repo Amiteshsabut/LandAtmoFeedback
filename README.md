@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://github.com/Amiteshsabut/LandAtmoFeedback">
-    <img src="docs/assets/landatmo-feedback-banner.png" alt="LandAtmoFeedback — coupled land-atmosphere feedback diagnostics" width="100%">
-  </a>
-</p>
 
 <h1 align="center">LandAtmoFeedback</h1>
 
@@ -55,21 +50,21 @@ The toolkit is designed for transparent, reproducible research rather than for o
 
 ## Scientific Framework
 
-For a state vector \(\mathbf{x}\), parameters \(\boldsymbol{\theta}\), and model tendency \(\mathbf{F}\), the package represents the coupled system as
+For a state vector $`\mathbf{x}`$, parameters $`\boldsymbol{\theta}`$, and model tendency $`\mathbf{F}`$, the package represents the coupled system as
 
-$$
-\frac{d\mathbf{x}}{dt} = \mathbf{F}(\mathbf{x}, \boldsymbol{\theta}).
-$$
+```math
+\frac{d\mathbf{x}}{dt} = \mathbf{F}(\mathbf{x},\boldsymbol{\theta}).
+```
 
-At an equilibrium \(\mathbf{x}^{*}\), where \(\mathbf{F}(\mathbf{x}^{*},\boldsymbol{\theta}) \approx 0\), local perturbations evolve according to
+At an equilibrium $`\mathbf{x}^{*}`$, where $`\mathbf{F}(\mathbf{x}^{*},\boldsymbol{\theta}) \approx \mathbf{0}`$, small perturbations evolve according to
 
-$$
+```math
 \frac{d\,\delta\mathbf{x}}{dt} \approx \mathbf{J}\,\delta\mathbf{x},
 \qquad
-J_{ij}=\left.\frac{\partial F_i}{\partial x_j}\right|_{\mathbf{x}^{*}}.
-$$
+J_{ij} = \left.\frac{\partial F_i}{\partial x_j}\right|_{\mathbf{x}=\mathbf{x}^{*}}.
+```
 
-The Jacobian \(\mathbf{J}\) describes local interactions among state variables. Its eigenvalues diagnose linear stability and relaxation rates, while process-specific Jacobians expose how individual modeled processes contribute to the total response.
+The Jacobian $`\mathbf{J}`$ describes local interactions among state variables. Its eigenvalues diagnose linear stability and relaxation rates, while process-specific Jacobians reveal how individual modeled processes contribute to the total response.
 
 These diagnostics are **local and model-conditioned**. They should not automatically be interpreted as causal relationships in observations.
 
