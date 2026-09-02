@@ -8,11 +8,12 @@ version = "0.1.0"
 description = "Quantify restoring and reinforcing feedbacks in coupled land-atmosphere systems."
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
-license-files = ["LICENSE"]
+license = {text = "MIT"}
+
 authors = [
   {name = "Amitesh Sabut"}
 ]
+
 keywords = [
   "land-atmosphere interaction",
   "soil moisture",
@@ -21,6 +22,7 @@ keywords = [
   "climate",
   "stochastic differential equations",
 ]
+
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Science/Research",
@@ -31,14 +33,20 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Topic :: Scientific/Engineering :: Atmospheric Science",
 ]
+
 dependencies = [
   "numpy>=1.24",
   "scipy>=1.10",
   "pandas>=2.0",
 ]
 
+
 [project.optional-dependencies]
-plot = ["matplotlib>=3.7"]
+
+plot = [
+  "matplotlib>=3.7",
+]
+
 dev = [
   "build>=1.2",
   "matplotlib>=3.7",
@@ -47,33 +55,41 @@ dev = [
   "ruff>=0.6",
   "twine>=5",
 ]
+
 docs = [
   "mkdocs>=1.6",
   "mkdocs-material>=9.5",
   "mkdocstrings[python]>=0.25",
 ]
 
+
 [project.scripts]
 landfeedback = "landfeedback.cli:main"
 
+
 [tool.setuptools.packages.find]
 where = ["src"]
+
 
 [tool.pytest.ini_options]
 addopts = "-ra --strict-markers"
 testpaths = ["tests"]
 
+
 [tool.coverage.run]
 source = ["landfeedback"]
+
 
 [tool.coverage.report]
 show_missing = true
 skip_covered = true
 fail_under = 85
 
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"
+
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
