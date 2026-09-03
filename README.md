@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=white" alt="Python 3.10+"></a>
-  <a href="https://github.com/Amiteshsabut/LandAtmoFeedback/actions/workflows/ci.yml"><img src="https://github.com/Amiteshsabut/LandAtmoFeedback/actions/workflows/ci.yml/badge.svg" alt="Build status"></a>
   <a href="https://github.com/Amiteshsabut/LandAtmoFeedback/graphs/contributors"><img src="https://img.shields.io/github/contributors/Amiteshsabut/LandAtmoFeedback.svg" alt="Contributors"></a>
   <a href="https://github.com/Amiteshsabut/LandAtmoFeedback/issues"><img src="https://img.shields.io/github/issues/Amiteshsabut/LandAtmoFeedback.svg" alt="Issues"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/Amiteshsabut/LandAtmoFeedback.svg" alt="MIT License"></a>
