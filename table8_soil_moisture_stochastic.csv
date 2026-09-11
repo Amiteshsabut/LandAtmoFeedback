@@ -1,0 +1,7 @@
+term,predictor,process,scaled_value_mm_day
+g1_equilibrium,equilibrium,equilibrium susceptibility,0.52
+Lambda11,soil_moisture,sum,-0.17
+Lambda12,air_humidity,vapor gradient,0.02
+Lambda13,soil_temperature,saturation specific humidity,-0.11
+Lambda14,air_temperature,does not appear,0.0
+Lambda15,delta_temperature,does not appear,0.0

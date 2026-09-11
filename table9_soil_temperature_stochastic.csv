@@ -1,0 +1,7 @@
+term,predictor,process,scaled_value_degC_day
+g3_equilibrium,equilibrium,equilibrium susceptibility,-3.81
+Lambda31,soil_moisture,sum,-0.12
+Lambda32,air_humidity,vapor deficit,0.1
+Lambda33,soil_temperature,saturation specific humidity,-0.53
+Lambda34,air_temperature,does not appear,0.0
+Lambda35,delta_temperature,sensible-heat gradient,-0.31

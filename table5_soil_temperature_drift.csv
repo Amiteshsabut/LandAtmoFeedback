@@ -1,0 +1,24 @@
+term,predictor,process,scaled_value_degC_day
+A31,soil_moisture,albedo,0.11
+A31,soil_moisture,evaporation efficiency,-0.99
+A31,soil_moisture,sum,-0.88
+A32,air_humidity,shortwave cloud correction,-1.02
+A32,air_humidity,longwave from above mixed layer,0.15
+A32,air_humidity,column absorption,-0.21
+A32,air_humidity,clear-sky longwave from mixed layer,0.34
+A32,air_humidity,cloud longwave correction,0.17
+A32,air_humidity,vapor deficit in potential evaporation,0.5
+A32,air_humidity,sum,-0.08
+A33,soil_temperature,longwave from soil,-1.19
+A33,soil_temperature,saturation specific humidity,-2.62
+A33,soil_temperature,sum,-3.81
+A34,air_temperature,shortwave cloud correction,0.44
+A34,air_temperature,above-layer downwelling longwave,0.09
+A34,air_temperature,layer downwelling longwave,0.35
+A34,air_temperature,buoyancy velocity in sensible heat,0.0
+A34,air_temperature,buoyancy velocity in evaporation,0.02
+A34,air_temperature,sum,0.9
+A35,delta_temperature,gradient in sensible heat,-1.52
+A35,delta_temperature,buoyancy velocity in sensible heat,-0.35
+A35,delta_temperature,buoyancy velocity in evaporation,-1.05
+A35,delta_temperature,sum,-2.91

@@ -1,0 +1,9 @@
+term,predictor,process,scaled_value_mm_day
+A11,soil_moisture,advected precipitation infiltration,-0.25
+A11,soil_moisture,recycled precipitation,-0.03
+A11,soil_moisture,evaporation efficiency,-0.36
+A11,soil_moisture,sum,-0.64
+A12,air_humidity,vapor gradient in potential evaporation,0.08
+A13,soil_temperature,saturation specific humidity,-0.48
+A14,air_temperature,buoyancy velocity,0.0
+A15,delta_temperature,buoyancy velocity,-0.22

@@ -1,0 +1,8 @@
+component,dry_mm_day,moist_mm_day
+soil_moisture,0.74,-0.67
+air_humidity,0.12,-0.1
+soil_temperature,-0.58,0.54
+air_temperature,0.0,0.0
+delta_temperature,-0.07,0.08
+linearized_tendency,0.21,-0.15
+nonlinear_tendency,0.19,-0.16

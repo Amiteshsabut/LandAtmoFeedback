@@ -1,0 +1,15 @@
+LandAtmoFeedback validation report
+=====================================
+PASS  analytic nonlinear Jacobian
+PASS  complex-step Jacobian cross-check
+PASS  analytic diffusion Jacobian
+PASS  deterministic process closure
+PASS  Eq.20 one-sigma scaling A_ij=J_ij sigma_j
+PASS  D^-1 J D eigenvalue invariance
+PASS  Eq.20 contribution sum equals J(x-x*)
+PASS  nonlinear Taylor error decreases near equilibrium
+PASS  Eq.32 diffusion linearization
+PASS  Brubaker 1996 Tables 4-7 arithmetic
+PASS  published-value regression fixtures
+-------------------------------------
+OVERALL: PASS

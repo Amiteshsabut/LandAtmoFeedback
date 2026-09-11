@@ -1,0 +1,23 @@
+LandAtmoFeedback 0.2.0 validation
+==================================
+Automated tests: 18 passed
+CLI validation: OVERALL PASS
+
+Checks:
+- analytic nonlinear Jacobian: PASS
+- complex-step Jacobian cross-check: PASS
+- analytic diffusion Jacobian: PASS
+- deterministic process closure: PASS
+- Eq.20 one-sigma scaling: PASS
+- standardized-coordinate eigenvalue invariance: PASS
+- Eq.20 contribution closure: PASS
+- local Taylor-error contraction: PASS
+- Eq.32 diffusion linearization: PASS
+- Brubaker 1996 Tables 4-7 arithmetic: PASS
+- published-value regression fixtures: PASS
+
+Important boundary:
+This validates the package numerics and the 1996 analysis conventions/tables.
+It is not a claim of a complete independent reconstruction of the original
+four-state physical model, because the 1996 paper refers to companion 1995
+papers for additional model details.

@@ -1,27 +1,13 @@
 # Changelog
 
-All notable changes to this project will be documented here.
+## 0.2.0
 
-The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and the project follows [Semantic Versioning](https://semver.org/).
-
-## [Unreleased]
-
-## [0.1.0] - 2026-08-26
-
-### Added
-
-- General coupled-model interface.
-- Equilibrium solving and verification.
-- Central, forward, and complex-step numerical Jacobians.
-- Scaled feedback matrices and pathway contributions.
-- State-dependent restoring/reinforcing classification.
-- Process-level feedback decomposition and closure checks.
-- Local stability and relaxation-mode diagnostics.
-- Conditional lower/upper-tail composites and asymmetry index.
-- Vector and multi-forcing diffusion sensitivities.
-- Euler-Maruyama SDE simulation.
-- Optional matrix and contribution plots.
-- Brubaker and Entekhabi (1996) Tables 2-9 benchmark fixtures.
-- Command-line benchmark export.
-
+- Explicitly documented Brubaker & Entekhabi (1996) one-sigma scaling.
+- Added independent analytic verification suite.
+- Added derivative step-size convergence checks.
+- Added standardized-coordinate matrix as a separate diagnostic.
+- Added exact Eq. (32)-style diffusion linearization.
+- Clarified conditional dry/moist logic as a fixed equilibrium linearization.
+- Added derived reporting-channel support for `delta_temperature`.
+- Expanded published Tables 3-9 regression fixtures.
+- Added `landfeedback validate`.

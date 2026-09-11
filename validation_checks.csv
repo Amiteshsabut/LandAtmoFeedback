@@ -1,0 +1,12 @@
+check,passed,metric,tolerance
+analytic nonlinear Jacobian,True,3.450684182837449e-11,1e-08
+complex-step Jacobian cross-check,True,5.551115123125783e-17,1e-12
+analytic diffusion Jacobian,True,5.751121801012005e-12,1e-08
+deterministic process closure,True,0.0,1e-08
+Eq.20 one-sigma scaling A_ij=J_ij sigma_j,True,6.057243595591899e-11,1e-08
+D^-1 J D eigenvalue invariance,True,1.1102230246251565e-16,1e-10
+Eq.20 contribution sum equals J(x-x*),True,0.0,1e-10
+nonlinear Taylor error decreases near equilibrium,True,1.930891808647012e-05,0.0003089426851357376
+Eq.32 diffusion linearization,True,4.371503159461554e-13,1e-10
+Brubaker 1996 Tables 4-7 arithmetic,True,0.020000000000000018,0.03
+published-value regression fixtures,True,0.0,0.0
