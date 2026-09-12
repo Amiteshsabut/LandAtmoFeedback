@@ -1,6 +1,8 @@
 <p align="center">
   <a href="https://github.com/Amiteshsabut/LandAtmoFeedback">
-    <img src="docs/assets/landatmo-feedback-banner.png" alt="LandAtmoFeedback — coupled land-atmosphere feedback diagnostics" width="100%">
+    <img src="docs/assets/landatmo-feedback-banner.png"
+         alt="LandAtmoFeedback — coupled land-atmosphere feedback diagnostics"
+         width="900">
   </a>
 </p>
 
