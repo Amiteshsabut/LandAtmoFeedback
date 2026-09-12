@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="./docs/assets/Plot-1.jpg"
-       alt="Land-atmosphere feedback framework"
-       width="900">
-</p>
 
 <h1 align="center">LandAtmoFeedback</h1>
 
